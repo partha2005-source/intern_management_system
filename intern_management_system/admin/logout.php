@@ -1,0 +1,8 @@
+<?php
+session_start();      // Start session
+session_unset();      // Remove all session variables
+session_destroy();    // Destroy session
+
+header("Location: admin_login.php"); // Redirect to login page
+exit();
+?>
